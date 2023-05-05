@@ -1,0 +1,31 @@
+<header>
+    <div class="wrapper">
+          <nav class="navbar navbar-expand-lg fixed-top" id="navigation" style="background-color: #ffffff;">
+          <div class="container">
+             <a routerLinkActive="active" routerLink=""><img src="../assets/logo.png" height="100" alt="Holy Angel University Logo"></a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+             </button>
+             
+             <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="container navbar-nav mr-auto w-100 justify-content-end">
+                   <li class="nav-item active mx-3">
+                    <a class="nav-link" routerLink="">Home</a>
+                   </li>
+                   <li class="nav-item mx-3">
+                    <a class="nav-link" routerLink="/about">About</a>
+                   </li>
+                   <li class="nav-item mx-3">
+                    <a class="nav-link" routerLink="/contact">Contact</a>
+                   </li>
+                   <li class="nav-item mx-3">
+                    <a class="nav-link"  routerLink="/gallery">Gallery</a>
+                   </li>
+                   
+                </ul>
+             </div>
+          </div>
+          </nav>
+    </div>
+  </header>
+<router-outlet></router-outlet>
